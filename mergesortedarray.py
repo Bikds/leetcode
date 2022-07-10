@@ -20,10 +20,6 @@ def merge(nums1, m, nums2, n) -> None:
             j -= 1
         idx -= 1
 
-    while i > -1:
-        nums1[idx] = nums1[i]
-        idx -= 1
-        i -= 1
     while j > -1:
         nums1[idx] = nums2[j]
         idx -= 1
