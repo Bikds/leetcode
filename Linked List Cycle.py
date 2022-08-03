@@ -27,11 +27,3 @@ def hasCycle(head: [ListNode]) -> bool:
     #     head = head.next
     #
     # return False
-
-
-
-
-
-
-
-if __name__ == "__main__":
