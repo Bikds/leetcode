@@ -64,11 +64,12 @@ def isValid(s: str) -> bool:
     else:
         return False
 
-print(isValid("["))
-print(isValid("]"))
-print(isValid("()"))
-print(isValid("(){}[]"))
-print(isValid("(){)"))
-print(isValid("(]"))
-print(isValid("([)]"))
-print(isValid("{()}"))
+if __name__ == "__main__":
+    print(isValid("["))
+    print(isValid("]"))
+    print(isValid("()"))
+    print(isValid("(){}[]"))
+    print(isValid("(){)"))
+    print(isValid("(]"))
+    print(isValid("([)]"))
+    print(isValid("{()}"))
